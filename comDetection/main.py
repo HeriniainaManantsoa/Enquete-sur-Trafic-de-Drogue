@@ -20,5 +20,5 @@ couleurs = classificateur.coloration()
 classe = classificateur.classe_graphe("neo4j", "examencomfraud@neo4j")
 for clique in classe["cliques"]:
     print (clique)
-for sous-graphe in classe["sous-graphes"]:
-    print (sous-graphe)
+for sousGraphe in classe["sous-graphes"]:
+    print (sousGraphe)
