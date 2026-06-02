@@ -11,7 +11,7 @@ if __name__ == "__main__":
     G = Generation.Generateur(n,p)
     GPrime = G.get_G_prime()
 
-    #SaveData.save_data(GPrime,GPrime.V,GPrime.E)
+    SaveData.save_data(GPrime,GPrime.V,GPrime.E)
 
     classificateur = Classification.Classificateur()
     classificateur.V = GPrime.V
