@@ -136,4 +136,4 @@ class Interface:
             elements=self.elements
             )
         ])
-        self.app.run(debug=True)
+        self.app.run(debug=False)
